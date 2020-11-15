@@ -1,0 +1,26 @@
+h1
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+p
+{
+    text-align: justify;
+    text-indent: 0%;
+}
+
+body
+{
+    background-image: url(images/mrx.png);
+    background-size: cover;
+    background-color: rgb(230, 238, 162);
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#bar
+{
+    background-image: image-set(back.jpg)
+}
