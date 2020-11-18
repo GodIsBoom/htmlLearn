@@ -10,16 +10,20 @@
             <h3>标题栏上写些啥a&#768</h3>
         </div>
         <h1>test1</h1>
-        <p>
+        <p id="somefw">
             1、人和树一样，他愈求升到高处和光明，他的根愈往下扎，向黑暗，向深处，向罪恶。<br>
             2、寂寞是一种对别人的饥渴。因此每个人都想在群众中，然后在自己周围编织各种人际关系，
             只是为了欺骗自己、忘记自己是寂寞的。但是寂寞会一再地冒出来。没有一种人际关系能够隐藏它。<br>
             3、如果你想走到高处，就要使用自己的两条腿！不要让别人把你抬到高处；不要坐在别人的背上和头上。<br>
         </p>
-        
+        <button type="button"
+        onclick="document.getElementById('somefw').innerHTML=null">
+        点击按钮来收起这些废话
+        </button>
         <span style="background-color: chartreuse;">
             不知道
         </span>
+
         <form>
             First name: <input type="text" name="firstname">
             Last name: <input type="text" name="lastname">
