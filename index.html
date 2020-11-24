@@ -4,10 +4,12 @@
         <meta charset="utf-8">
         <title>gxk'sblog</title>
         <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="myScript.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
     <body>
         <div id="bar">
-            <h3>标题栏上写些啥a&#768</h3>
+            <h3>标题栏上写些啥a</h3>
         </div>
         <h1>test1</h1>
         <p id="somefw">
@@ -16,11 +18,10 @@
             只是为了欺骗自己、忘记自己是寂寞的。但是寂寞会一再地冒出来。没有一种人际关系能够隐藏它。<br>
             3、如果你想走到高处，就要使用自己的两条腿！不要让别人把你抬到高处；不要坐在别人的背上和头上。<br>
         </p>
-        <button type="button"
-        onclick="document.getElementById('somefw').innerHTML=null">
+        <button type="button" onclick="closeText()">
         点击按钮来收起这些废话
         </button>
-        <span style="background-color: chartreuse;">
+        <span v-blind:style="background-color: chartreuse;">
             不知道
         </span>
 
